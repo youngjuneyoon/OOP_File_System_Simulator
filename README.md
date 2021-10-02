@@ -1,6 +1,6 @@
 # lab5_base
 
-##Test cases for 1 (testing ls/ ls -l command)
+## Test cases for 1 (testing ls/ ls -l command)
 
 (case 1)
 command "ls"
