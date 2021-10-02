@@ -1,5 +1,6 @@
 # lab5_base
-	- Test cases for 1 (testing ls/ ls -l command)
+
+##Test cases for 1 (testing ls/ ls -l command)
 
 (case 1)
 command "ls"
@@ -26,7 +27,7 @@ In order to check if strings in between "ls" and "-l" could cause a problem or n
 It returned "command failed", a cmd output which indicates it is an invalid command.
 
 
-	- Test cases for 2 (testing rm command)
+##Test cases for 2 (testing rm command)
 
 (case 1)
 command: created t.txt, then
@@ -60,7 +61,7 @@ command: we created upto root/dir1/dir2/dir3. After going back to the root folde
 successfully removes all of the files inside dir1 including dir1 itself. 
 
 
-	- Test cases for 3 (testing cat command)
+##Test cases for 3 (testing cat command)
 
 (case 1)
 
@@ -101,7 +102,7 @@ Both displayed nothing and returned no error because ":q" command should not sav
 
 
 
-	- Test cases for 4 (testing ds command)
+##Test cases for 4 (testing ds command)
 
 (case 1)
 
@@ -141,7 +142,7 @@ unformatted display command's output is different only when it is called to an i
 
 
 
-	- Test cases for 5 (testing cp command)
+##Test cases for 5 (testing cp command)
 
 (case 1)
 command: We created dir1, dir2, t.txt and then, 
@@ -176,7 +177,7 @@ command: we created t.txt in root/dir1 and created dir2 in root/. Then, inside d
 
 
 
-	- Test cases for 6 (testing sym command)
+##Test cases for 6 (testing sym command)
 
 (case 1)
 command:
